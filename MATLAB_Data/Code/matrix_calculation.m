@@ -1,0 +1,15 @@
+A = [1 -2 -1 0 ; -2 4 6 -6 ; -1 0 2 3 ;3 3 3 4];%定义矩阵
+B = fix(10.*rand(4)); %自动生成4*4矩阵
+C = A + B
+D = A * B
+E = A .* B
+F = A / B
+G = sqrt(A)%矩阵平方根
+MEAN = mean(A)%平均阵
+MAX = max(A)%最大值
+MIN = min(A)%最小值
+N = rank(A)%矩阵的秩
+TRACE = trace(A)%矩阵的迹
+SIZE = size(A)%矩阵行列值
+INV = inv(A)%逆矩阵
+BS = inv(A) * det(A) % 伴随阵
